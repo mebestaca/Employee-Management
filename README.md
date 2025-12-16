@@ -60,7 +60,7 @@ o	UML Diagrams: Export your SIM diagrams into this document. One diagram per pag
 o	Project files: with partial class.
 
 Class Diagram
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/EmployeeManagement.png)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/EmployeeManagement.png)
 
 #### Submission: 
 Submit both your Word document and SIM project to Brightspace under ‘Assignments/FinalProject’. 
@@ -129,27 +129,27 @@ Each student must complete a peer assessment of their group members. Your instru
 
 ## Sample Output
 ### Main Menu 
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image.jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image.jpg)
 ### Display Employees
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(1).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(1).jpg)
 ### Add Employee
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(2).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(2).jpg)
 ### Edit Employee
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(3).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(3).jpg)
 ### Delete Employee
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(4).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(4).jpg)
 ### Department Menu
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(5).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(5).jpg)
 ### Display Department
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(6).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(6).jpg)
 ### Add Department
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(7).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(7).jpg)
 ### Edit Department
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(8).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(8).jpg)
 ### Dekete Department
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(9).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(9).jpg)
 ### Exit Application
-![alt text](https://github.com/dylandangt/group20_finalproject/blob/main/EmployeeManagement/image%20(10).jpg)
+![alt text](https://github.com/mebestaca/Employee-Management/blob/main/EmployeeManagement/image%20(10).jpg)
 
 
 
