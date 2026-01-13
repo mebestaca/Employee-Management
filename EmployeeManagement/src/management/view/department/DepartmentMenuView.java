@@ -7,9 +7,9 @@ public class DepartmentMenuView implements Screen{
 	@Override
 	public  void display() {
 		System.out.println();
-		System.out.println("╔════════════════════════════╗");
-		System.out.println("║       Departments Menu     ║");
-		System.out.println("╚════════════════════════════╝");
+		System.out.println("╔═════════════════════════════╗");
+		System.out.println("║       Departments Menu      ║");
+		System.out.println("╚═════════════════════════════╝");
 		System.out.println();
 		System.out.println("[1] - Display all departments");
 		System.out.println("[2] - Add a new department");
