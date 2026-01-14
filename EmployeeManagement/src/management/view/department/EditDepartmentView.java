@@ -7,9 +7,9 @@ public class EditDepartmentView implements Screen{
 	@Override
 	public void display() {
 		System.out.println();
-		System.out.println("---------------");
-		System.out.println("Edit Department");
-		System.out.println("---------------");
+		System.out.println("╔═════════════════════════════╗");
+		System.out.println("║        Edit Department      ║");
+		System.out.println("╚═════════════════════════════╝");
 	}
 
 }
