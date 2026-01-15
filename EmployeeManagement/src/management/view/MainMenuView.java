@@ -8,7 +8,7 @@ public class MainMenuView implements Screen{
 	public void display() {
 		System.out.println("");
 		System.out.println("╔═════════════════════════════╗");
-		System.out.println("║  Employee Management System ║");
+		System.out.println("║ Employee Management System  ║");
 		System.out.println("╚═════════════════════════════╝");
 		System.out.println("                               ");
 		System.out.println(" [1] - Employees Menu          ");
