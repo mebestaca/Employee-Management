@@ -9,7 +9,7 @@ public class AddEmployeeView implements Screen {
 		System.out.println();
 		System.out.println("╔═════════════════════════════╗");
 		System.out.println("║         Add Employee        ║");
-		System.out.println("╚═════════════════════════════╝);
+		System.out.println("╚═════════════════════════════╝");
 	}
 
 }
