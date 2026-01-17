@@ -9,7 +9,7 @@ import management.service.Repository;
 public class AllDepartmentView implements Screen{
 	final String dividerTop    = "╔═══════╦═══════════════════════════╗";
 	final String dividerMiddle = "╠═══════╬═══════════════════════════╣";
-	final String dividerBottom = "╚═══════════════════════════════════╝";
+	final String dividerBottom = "╚═══════╩═══════════════════════════╝";
 	
 	@Override
 	public void display() {
