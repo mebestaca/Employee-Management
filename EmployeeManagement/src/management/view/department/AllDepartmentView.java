@@ -7,7 +7,9 @@ import management.model.Department;
 import management.service.Repository;
 
 public class AllDepartmentView implements Screen{
-	final String divider = "---------------------------------------------";
+	final String dividerTop    = "╔═══════╦═══════════════════════════╗";
+	final String dividerMiddle = "╚═══════════════════════════════════╝";
+	final String dividerBottom = "╚═══════════════════════════════════╝";
 	
 	@Override
 	public void display() {
@@ -21,12 +23,12 @@ public class AllDepartmentView implements Screen{
         int idW = 5;
         int nameW = 25;
 
-        String format = "| %-" + idW + "s | %-" + nameW + "s |\n";
+        String format = "║ %-" + idW + "s ║ %-" + nameW + "s ║\n";
         
 
-        System.out.println(divider);
+        System.out.println(dividerTop);
         System.out.printf(format, "ID", "Department Name");
-        System.out.println(divider);
+        System.out.println(dividerMiddle);
 
         for (Department d : departmentList) {
             System.out.printf(format,
@@ -35,7 +37,7 @@ public class AllDepartmentView implements Screen{
             );
         }
 
-        System.out.println(divider);
+        System.out.println(dividerBottom);
 		
 	}
 	
