@@ -9,7 +9,8 @@ import management.service.Repository;
 
 public class AllEmployeesView implements Screen{
 	
-	private final String dividerTop = "╔═══════╦════════════╦════════════╦══════════════╦═══════╦══════════════╦════════════════════╦══════════╦══════════════╦═════════════════╦══════════════╗";
+	private final String dividerTop =    "╔═══════╦════════════╦════════════╦══════════════╦═══════╦══════════════╦════════════════════╦══════════╦══════════════╦═════════════════╦══════════════╗";
+	private final String dividerMiddle = "╠═══════╬════════════╬════════════╬══════════════╬═══════╬══════════════╬════════════════════╬══════════╬══════════════╬═════════════════╬══════════════╣";
 	
 	@Override
 	public void display() {
@@ -50,7 +51,7 @@ public class AllEmployeesView implements Screen{
 	    System.out.printf(format,
 	            "ID", "First Name", "Last Name", "Hired", "Dept",
 	            "Birthdate", "Email", "Gender", "Phone", "Address", "Status");
-	    System.out.println(dividerTop);
+	    System.out.println(dividerMiddle);
 
 	    for (Employee e : employeeList) {
 	        System.out.printf(format,
