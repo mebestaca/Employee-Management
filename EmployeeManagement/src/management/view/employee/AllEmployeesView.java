@@ -11,6 +11,7 @@ public class AllEmployeesView implements Screen{
 	
 	private final String dividerTop =    "╔═══════╦════════════╦════════════╦══════════════╦═══════╦══════════════╦════════════════════╦══════════╦══════════════╦═════════════════╦══════════════╗";
 	private final String dividerMiddle = "╠═══════╬════════════╬════════════╬══════════════╬═══════╬══════════════╬════════════════════╬══════════╬══════════════╬═════════════════╬══════════════╣";
+	private final String dividerBottom = "╚═══════╩════════════╩════════════╩══════════════╩═══════╩══════════════╩════════════════════╩══════════╩══════════════╩═════════════════╩══════════════╝";
 	
 	@Override
 	public void display() {
@@ -69,7 +70,7 @@ public class AllEmployeesView implements Screen{
 	        );
 	    }
 	
-	    System.out.println(dividerTop);
+	    System.out.println(dividerBottom);
 	}
 
 	private static String safeDate(Date d) {
