@@ -9,7 +9,7 @@ import management.service.Repository;
 
 public class AllEmployeesView implements Screen{
 	
-	private final String divider = "---------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+	private final String dividerTop = "╔═══════╦════════════╦════════════╦══════════════╦═══════╦══════════════╦════════════════════╦══════════╦══════════════╦═════════════════╦══════════════╗";
 	
 	@Override
 	public void display() {
@@ -21,36 +21,36 @@ public class AllEmployeesView implements Screen{
 	    }
 
 	    int idW = 5;
-	    int fNameW = 15;
-	    int lNameW = 15;
+	    int fNameW = 10;
+	    int lNameW = 10;
 	    int hiredW = 12;
 	    int deptW = 5;
 	    int dobW = 12;
-	    int emailW = 25;
+	    int emailW = 18;
 	    int genderW = 8;
 	    int phoneW = 12;
-	    int addressW = 20;
+	    int addressW = 15;
 	    int statusW = 12;
 
-	    String format = "| %-" + idW + "s"
-	            	 + " | %-" + fNameW + "s"
-	            	 + " | %-" + lNameW + "s"
-	            	 + " | %-" + hiredW + "s"
-	            	 + " | %-" + deptW + "s"
-	            	 + " | %-" + dobW + "s"
-	            	 + " | %-" + emailW + "s"
-	            	 + " | %-" + genderW + "s"
-	            	 + " | %-" + phoneW + "s"
-	            	 + " | %-" + addressW + "s"
-	            	 + " | %-" + statusW + "s |\n";
+	    String format = "║ %-" + idW + "s"
+	            	 + " ║ %-" + fNameW + "s"
+	            	 + " ║ %-" + lNameW + "s"
+	            	 + " ║ %-" + hiredW + "s"
+	            	 + " ║ %-" + deptW + "s"
+	            	 + " ║ %-" + dobW + "s"
+	            	 + " ║ %-" + emailW + "s"
+	            	 + " ║ %-" + genderW + "s"
+	            	 + " ║ %-" + phoneW + "s"
+	            	 + " ║ %-" + addressW + "s"
+	            	 + " ║ %-" + statusW + "s ║\n";
 
 	    
 	
-	    System.out.println(divider);
+	    System.out.println(dividerTop);
 	    System.out.printf(format,
 	            "ID", "First Name", "Last Name", "Hired", "Dept",
 	            "Birthdate", "Email", "Gender", "Phone", "Address", "Status");
-	    System.out.println(divider);
+	    System.out.println(dividerTop);
 
 	    for (Employee e : employeeList) {
 	        System.out.printf(format,
@@ -68,7 +68,7 @@ public class AllEmployeesView implements Screen{
 	        );
 	    }
 	
-	    System.out.println(divider);
+	    System.out.println(dividerTop);
 	}
 
 	private static String safeDate(Date d) {
