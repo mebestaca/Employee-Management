@@ -45,8 +45,6 @@ public class AllEmployeesView implements Screen{
 	            	 + " ║ %-" + phoneW + "s"
 	            	 + " ║ %-" + addressW + "s"
 	            	 + " ║ %-" + statusW + "s ║\n";
-
-	    
 	
 	    System.out.println(dividerTop);
 	    System.out.printf(format,
