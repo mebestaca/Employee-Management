@@ -1,9 +1,4 @@
-# Final Project: Database Connected Application
-### Submitted by Group 20:
-Marc Edison Estaca <br>
-Lexter Paule <br>
-Dylan Dang <br>
-Reiner Justin
+# Database Connected Application
 
 ### Date Completed
 December 14, 2025
